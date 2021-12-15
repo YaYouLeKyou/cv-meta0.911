@@ -22,7 +22,7 @@ canvas {
 }
 
 main {
-  overflow: hidden;
+ 
   width: 100vw;
   color: white;
   z-index: 99;
