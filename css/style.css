@@ -837,3 +837,17 @@ i {
   }
 }
 /* project */
+@media (max-width: 767px) {
+  .text-img {
+    visibility: hidden;
+    display: none;
+  }
+  .aliens {
+    top: 10%;
+  }
+  .aliens span {
+    margin: 0px;
+    height: 10px;
+    font-size: 3rem !important;
+  }
+}
