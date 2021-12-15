@@ -33,6 +33,16 @@ main {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
+@media (max-width: 767px) {
+  .aliens {
+    top: 10%;
+  }
+  .aliens span {
+    margin: 0px;
+    height: 10px;
+    font-size: 3rem !important;
+  }
+}
 
 h2,
 h3,
